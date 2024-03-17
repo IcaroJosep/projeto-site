@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="pt">
+
+<head>
+    <!--motor de leitura-->
+    <meta charset="UTF-8">
+    <!--metadados de exibicao no navegador/celular-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  linkagem da arq de estilo -->
+    <link rel="stylesheet" href="estilo.css">
+    <!--biblioteca-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!--titulo da aba-->
+    <title>PÉTRA ROUPAS MASCULINAS E FEMININAS </title>
+    <!--fonte-->
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <button id="btn">
+            <img src="img/menu1.png" alt="menu">
+        </button>
+            <h1>PÉTRA<span><br>artigos de vestuario</span> </h1>
+        <button>
+            <img src="img/home.png" alt="home">
+        </button>
+    </nav>
+    <aside>
+        <a href=""><button>Masculino</BUtton></a>
+        <a href=""><button>Feminino</BUtton></a>
+        <a href=""><button>Infantil</BUtton></a>
+        <a href=""><button>Lingerie</BUtton></a>
+    </aside>
+    <script>
+        document.getElementById('btn').addEventListener('click', function () {
+            document.querySelector('aside').classList.toggle('show');
+        });
+    </script>
+</body>
+
+</html>
